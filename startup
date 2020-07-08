@@ -1,0 +1,6 @@
+echo "# fghjkl" >> README.md
+git init
+git add .
+git commit -m "Hackspace"
+git remote add origin https://github.com/Kamakepar2029/fghjkl.git
+git push -u origin master

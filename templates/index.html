@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>HacKsPace</title>
+    <meta content="Kama Kepar Flask Hack App">
+    <style>
+    
+    .header{
+		display: flex;
+		justify-content:center;
+		font-size:40px;
+		padding:50px;
+		background: black;
+		color:white;
+	}
+	body{
+		margin:0px;
+	}
+	.instagram{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.title{
+		font-size:30px;
+	}
+	#hack{
+	padding:20px 40px;
+	border:1px solid grey;
+	border-radius:5px;
+	}
+	input[type=submit]{
+		border:1px solid black;
+		background:white;
+		padding:20px;
+	}
+	input[type=submit]:hover{
+		background:black;
+		color:white;
+	}
+	.tg{
+		border:2px solid gray;
+		padding:40px;
+		border-radius:40px;
+	}
+	.telegram{
+		margin-top:70px;
+		
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.inst{
+		border:2px solid gray;
+		padding:40px;
+		margin-top:40px;
+		border-radius:40px;
+	}
+    </style>
+  </head>
+  <body>
+  <div class="header">
+  HacKsPace
+  </div>
+  <div class="instagram">
+	<div class="inst">
+	<div class="title">
+	Hack Instagram
+	</div>
+	<form action="/instagram" method="POST">
+		<input id="hack" name="link" placeholder="Enter Link to Instagram by without http:// or https://">
+		<input type="submit" value="HacKInstagram">
+	</form>
+	</div>
+  </div>
+  <div class="telegram">
+  <div class="tg">
+  <div class="title">
+  Hack Telegram
+  </div>
+  <form action="/telegram" method="POST">
+  <input id="hack" name="link" placeholder="Enter Link to Telegram by without http:// or https://">
+  <input type="submit" value="HacKTelegram">
+  </form>
+  </div>
+  </div>
+  <div class="telegram">
+  <div class="tg">
+  <div class="title">
+  Hack Vk
+  </div>
+  <form action="/vk" method="POST">
+  <input id="hack" name="link" placeholder="Enter Link to Vk by without http:// or https://">
+  <input type="submit" value="HacKVk">
+  </form>
+  </div>
+  </div>
+  </body>
+</html>
